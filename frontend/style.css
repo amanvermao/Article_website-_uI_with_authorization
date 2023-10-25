@@ -1,0 +1,341 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar start here */
+#Navbar{
+
+    height: 72px;
+}
+#logo_img{
+    Width: 162.57px;
+    Height: 24px;
+    position: absolute;
+    top: 24px;
+    left: 72px;  
+
+}
+
+#search_btn{
+ width: 22px;
+height: 22px;
+border: none;
+background: transparent;
+position: relative;
+top: 4px;
+left: 2px;
+
+
+}
+#search_logo{
+Width:16.03px;
+Height:16.03px;
+position: relative;
+Top:2.75px;
+Left:2.75px; 
+}
+.inputarea{
+Width: 360px;
+Height:42px;
+position: absolute;
+Top:16px;
+Left:540px;
+border-radius: 21px;
+background-color: #F2F2F2;
+
+    
+}
+#Search_input{
+    border: none;
+   
+    position: absolute;
+    Height:30px;
+    width: 300px;
+font-size: 15px;
+font-weight: 500;
+color: #5C5C5C ;
+position: relative;
+left: 20px;
+top: 5px;
+background: transparent;
+    
+}
+
+.nave_text_area{
+    display: flex;
+    Width:183px;
+    Height:21px;
+    position: relative;
+    right: 60px;
+    font-size: 16px;
+    font-weight: 700px;
+}
+.nav_text{
+    width: 250px;
+
+}
+#dropdown_arrow{
+    width: 24px;
+    height: 24px;
+
+}
+
+#text1{
+    color: #2E2E2E;
+
+}
+#text2{
+ cursor: pointer;
+   color: #2F6CE5; 
+}
+
+/* navbar ends here */
+
+/* banner start here */
+
+.slider{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    
+}
+#black_img{
+  position: absolute;
+  width: 100%;
+}
+.slider_text{
+    position: absolute;
+    color: white;
+    z-index: 2;
+    top: 310px;
+    left: 170px;
+
+}
+/* banner ends here */
+
+#main{
+    
+    margin-top: 30px;
+}
+.manue{
+    display: flex;
+    justify-content: space-between;
+}
+
+.manue_text{
+    display: flex;
+    gap: 1.5rem;
+
+}
+.menue_btns{
+    display: flex;
+    gap: 1.5rem;
+}
+
+#left{
+    height: 30rem;
+
+}
+
+
+
+.card1{ 
+      width: 750px;
+    border-radius: 4px;
+    border: 1px solid #E0E0E0;
+    margin-bottom: 20px;
+    
+
+}
+#article_img{
+   width: 750px;  
+}
+.texts{
+    padding: 15px;
+}
+.article_heading_box{
+    display: flex;
+    justify-content: space-between;
+
+}
+#more{
+ font-size: 25px;
+ font-weight: bolder;
+ 
+
+}
+#article_heading{
+    width: 600px;
+    font-size: 24px;
+    font-weight: bolder;
+ 
+}
+#pera{
+    width: 100%;
+    
+    font-weight: 400;
+    font-size: 20px;
+}
+#name{
+    font-size: 18px;
+    font-weight: 600;
+}
+#user{
+    gap: 13px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   
+   
+}
+#view_text{
+    font-size: 14px;
+    font-weight: 500;
+color: #525252;
+display: flex;
+gap: 7px;
+
+}
+#share_btn{
+    border: none;
+    background: #EDEEF0;
+    width: 42px;
+    height: 36px;
+
+ 
+}
+#share{
+ display: flex;
+ gap: 27px;
+ justify-content: center;
+ align-items: center;
+
+}
+
+#right{
+    height: 30rem;
+
+}
+.location{
+    padding: 20px;
+    position: relative;
+    top: 15px;
+
+}
+#location_icon{
+ font-size: 20px;
+ position: relative;
+ top: 10px;
+
+
+}
+
+#location_input{
+    border: none;
+    outline: none;
+    width: 270px;
+    font-size: large;
+   color: black;
+   position: relative;
+   top: 10px;
+   background: transparent;
+
+}
+
+#input_bottom{
+    border-bottom: 2px solid  #B8B8B8;
+    width: 320px;
+
+}
+#pencil{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 4px;
+}
+#worning_img{
+    font-size: large;
+}
+.worning{
+    Width:270px;
+    Height:32px;
+    font-size: 14px;
+    font-weight: 400;
+   color: #5C5C5C;
+   position: relative;
+   top: 15px;
+   left: 40px; 
+   
+}
+.article_details{
+    display: flex;
+    gap: 2rem;
+    width: 400px;
+    margin-bottom: 15px;
+
+}
+.website_link{
+    width: 100%;
+  height: 40px;
+border: 1px solid 
+#A9AEB8;
+border-radius: 8px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 20px;
+}
+.link{
+    color: #E56135;
+    align-items: center;
+    text-align: center;
+
+}
+.link2{
+    color: #02B875;
+
+
+}
+
+
+@media only screen and (max-width: 1170px) {
+   
+    .inputarea {
+      
+        Left: 315px;
+        
+      }
+  }
+  @media only screen and (max-width: 932px) {
+   
+    .inputarea {
+      
+        Left: 249px;
+        
+      }
+  }
+
+
+  @media screen and (max-width:768px){
+
+    #Navbar {
+        height: 269px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+     
+      .inputarea {
+        Width: 360px;
+        Height: 42px;
+       
+        border-radius: 21px;
+        background-color: #F2F2F2;
+      }
+   
+
+    
+  }
