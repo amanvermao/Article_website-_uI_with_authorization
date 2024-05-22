@@ -147,11 +147,11 @@ justify-content: flex-end;
     font-size: larger;
     display: flex;
     justify-content: flex-end;
-    width: 77%;
-    position: absolute;
-    margin-top: 145px;
     color: #EFFFF4;
     cursor: pointer;
+    position: relative;
+    bottom: 32px;
+    left: 22px;
   }
 
 
